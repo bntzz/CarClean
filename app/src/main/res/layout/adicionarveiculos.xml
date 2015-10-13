@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adicionarVeiculos"
+        android:textColor="@color/darkgreen"
+        android:textSize="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="70dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:padding="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textColor="@color/darkgreen"
+        android:hint="@string/marca"
+        android:id="@+id/marca"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:padding="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textColor="@color/darkgreen"
+        android:hint="@string/modelo"
+        android:id="@+id/modelo"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:padding="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textColor="@color/darkgreen"
+        android:hint="@string/cor"
+        android:id="@+id/cor"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:padding="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textColor="@color/darkgreen"
+        android:hint="@string/placa"
+        android:id="@+id/placa"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btSalvar"
+        android:textSize="30dp"
+        android:textColor="@color/grey"
+        android:id="@+id/btSalvar"/>
+
+</LinearLayout>
