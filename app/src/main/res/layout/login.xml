@@ -27,7 +27,7 @@
         android:imeOptions="actionNext"
         android:lines="1"
         android:singleLine="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="5dp"
         android:layout_marginRight="30dp"
         android:textColorHint="@color/hint" />
 
@@ -56,5 +56,16 @@
         android:layout_marginRight="30dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/button" />
+
+    <TextView
+        android:id="@+id/naoCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/naoCadastro"
+        android:textColor="@color/darkgreen"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
 
 </LinearLayout>

@@ -8,6 +8,9 @@
     <string name="senha">Senha</string>
     <string name="btEntrar">Entrar</string>
 
+    <string name="nome">Nome</string>
+    <string name="naoCadastro"><u>Ainda não possui cadastro?</u></string>
+
 
     <string name="adicionarVeiculos">Adicionar Veículo</string>
     <string name="editarVeiculo">Editar Veículo</string>
@@ -33,6 +36,7 @@
 
     <string name="meusVeiculos">Meus Veículos</string>
     <string name="veiculosFila">Veículos na Fila</string>
+    <string name="cadastroCliente">Cadastro Cliente</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.carclean.beans.Usuario;
@@ -19,6 +20,7 @@ public class Login extends Activity {
 
     EditText login;
     EditText senha;
+    TextView naoCadastro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +35,18 @@ public class Login extends Activity {
                 verificarUsuario();
             }
         });
+        naoCadastro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                telaDeCadastro();
+            }
+        });
 
+    }
+
+    public void telaDeCadastro(){
+        Intent telaCadastro = new Intent(Login.this, Cadastro.class);
+        startActivity(telaCadastro);
     }
 
     public void verificarUsuario(){

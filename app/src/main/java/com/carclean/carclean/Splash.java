@@ -40,7 +40,7 @@ public class Splash extends Activity {
             public void run() {
                 handler.post(new Runnable() {
                     public void run() {
-                        Intent it = new Intent(Splash.this, Login.class);
+                        Intent it = new Intent(Splash.this,Login.class);
                         startActivity(it);
                         finish();
                     }

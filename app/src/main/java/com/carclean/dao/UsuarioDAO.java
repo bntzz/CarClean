@@ -27,5 +27,17 @@ public class UsuarioDAO {
         }
         //--------
     }
+    public static void adicionar(Usuario usuario) {
+        /**
+         * AQUI DEVE SER IMPLEMENTADA A CONEXÃO COM O WS
+         */
+
+        //Código de teste
+        usuario.getNome().toString();
+        usuario.getSenha().toString();
+        usuario.getEmail().toString();
+        return;
+        //-------
+    }
 
 }
